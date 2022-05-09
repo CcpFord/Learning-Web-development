@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colorred-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 21%;
+  position: absolute;
+  left: 57%;
+}
+
+
+/* features Section*/
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.carousel-trasition {
+  transition: transform 1s ease;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section*/
+
+.icon-contact {
+  margin: 20px 10px;
+}
+
+/* Responsive Section */
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+  }
+}
